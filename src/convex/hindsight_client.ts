@@ -1,7 +1,8 @@
 // hindsight_client.ts — the ONLY place that talks to Hindsight.
 //
-// Runs against a self-hosted Hindsight server (no API key): default
-// http://localhost:8888, override with the HINDSIGHT_BASE_URL env var.
+// Runs against a Hindsight server (self-hosted by default, no API key):
+// default http://localhost:8888, override with the HINDSIGHT_BASE_URL env var.
+// For hosted/cloud instances set HINDSIGHT_API_KEY (sent as Bearer token).
 // Official SDK: @vectorize-io/hindsight-client (verified against v0.10.1).
 //
 // Two memory banks (Hindsight banks):
@@ -41,7 +42,12 @@ let cachedClient: HindsightClient | null = null;
 function getClient(): HindsightClient {
   if (!cachedClient) {
     const baseUrl = process.env.HINDSIGHT_BASE_URL || "http://localhost:8888";
-    cachedClient = new HindsightClient({ baseUrl, maxAttempts: 1 });
+    const apiKey = process.env.HINDSIGHT_API_KEY;
+    cachedClient = new HindsightClient({
+      baseUrl,
+      maxAttempts: 1,
+      ...(apiKey ? { apiKey } : {}),
+    });
   }
   return cachedClient;
 }
