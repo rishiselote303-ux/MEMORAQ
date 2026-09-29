@@ -1,7 +1,7 @@
 {
-  "name": "freebuff.com application",
-  "short_name": "freebuff.com",
-  "description": "freebuff.com application",
+  "name": "MEMORAQ",
+  "short_name": "MEMORAQ",
+  "description": "MEMORAQ — memory-augmented strategic intelligence and decision simulation",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

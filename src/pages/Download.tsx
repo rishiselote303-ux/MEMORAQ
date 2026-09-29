@@ -51,7 +51,7 @@ export default function Download() {
         <div className="flex items-center gap-3 border-b border-border px-6 py-4">
           <SwissThemeMark className="size-9 shrink-0" />
           <div className="leading-tight">
-            <p className="text-sm font-bold tracking-tight">Hindsight</p>
+            <p className="text-sm font-bold tracking-tight">MEMORAQ</p>
             <p className="swiss-kicker">Strategy Co-Pilot</p>
           </div>
         </div>

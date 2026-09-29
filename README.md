@@ -1,4 +1,4 @@
-# Hindsight Strategy Co-Pilot
+# MEMORAQ
 
 > Remember the past. Understand the present. Simulate the future. Let humans decide.
 

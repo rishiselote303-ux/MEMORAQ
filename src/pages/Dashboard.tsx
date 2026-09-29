@@ -86,7 +86,7 @@ export default function Dashboard() {
             <Link to="/" className="flex items-center gap-3">
               <SwissMark />
               <div className="leading-tight">
-                <p className="text-sm font-bold tracking-tight">Hindsight Strategy Co-Pilot</p>
+                <p className="text-sm font-bold tracking-tight">MEMORAQ</p>
                 <p className="swiss-kicker">Northwind Instruments · Mar – Aug 2026</p>
               </div>
             </Link>

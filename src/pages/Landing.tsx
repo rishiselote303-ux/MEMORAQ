@@ -101,7 +101,7 @@ export default function Landing() {
           <Link to="/" className="flex items-center gap-3">
             <SwissMark />
             <div className="leading-tight">
-              <p className="text-sm font-bold tracking-tight">Hindsight</p>
+              <p className="text-sm font-bold tracking-tight">MEMORAQ</p>
               <p className="swiss-kicker">Strategy Co-Pilot</p>
             </div>
           </Link>
@@ -140,7 +140,7 @@ export default function Landing() {
             </h1>
             <div className="swiss-rule mt-8" />
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Hindsight is a strategic intelligence system for organizations
+              MEMORAQ is a strategic intelligence system for organizations
               that refuse to re-learn the same lesson twice. It keeps the
               institutional memory of every decision, prices the present with
               deterministic precision, and rehearses the future — while leaving
@@ -425,7 +425,7 @@ export default function Landing() {
       <footer className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-10 text-xs text-muted-foreground md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-3">
           <SwissMark className="size-6" />
-          <span>Hindsight Strategy Co-Pilot — institutional memory for serious decisions</span>
+          <span>MEMORAQ — institutional memory for serious decisions</span>
         </div>
         <span>
           Hindsight runs self-hosted. Simulations are estimates, never promises.

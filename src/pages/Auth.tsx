@@ -123,14 +123,14 @@ function Auth({ redirectAfterAuth }: AuthProps = {}) {
               <div className="flex justify-center">
                     <img
                       src={logo}
-                      alt="Hindsight Strategy Co-Pilot"
+                      alt="MEMORAQ"
                       width={64}
                       height={64}
                       className="mb-4 mt-4 cursor-pointer"
                       onClick={() => navigate("/")}
                     />
                   </div>
-                <CardTitle className="text-xl">Hindsight Strategy Co-Pilot</CardTitle>
+                <CardTitle className="text-xl">MEMORAQ</CardTitle>
                 <CardDescription>
                   Sign in to open the strategy workspace. New here? The same
                   email creates your account.
